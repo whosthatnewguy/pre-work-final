@@ -1,0 +1,145 @@
+html {
+  font-family: "Lucida Sans", sans-serif;
+  color: #fff;
+}
+
+body{
+  background-color: #272936;
+}
+{
+  display: grid;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.18fr 0.29fr 0.8fr 0.5fr;
+  grid-gap: 20px;
+  
+} 
+
+.nestedleft{
+  padding-left: 25px;
+  padding-top: 1px;
+/*   border: red 1px solid; */
+}
+
+.bottomcon {
+  padding-top: 400px;
+}
+
+.nestitem {
+/*   border: red 1px solid; */
+  padding-bottom: 15px;
+}
+.nested {
+/*   border: red 1px solid; */
+/*   height: 100%;
+  padding-bottom: 25px; */
+}
+
+
+.redditcolor{
+  color:#5D6C9A;
+}
+
+
+.borderdiv {
+  border-left: #44475A 3px solid;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.borderdiv2 {
+  border-bottom: #44475A 1.8px solid;
+  color: #5D6C9A;
+}
+
+.nestedtime {
+  display: grid;
+  justify-items: center;
+}
+
+#clockbox{
+/*   justify-items: center; */
+  font-size: 6em;
+/*   border: red 5px solid; */
+  padding-top: 50px;
+  color: #5D6C9A;
+}
+
+
+.nestitem:hover {
+  opacity: 0.7;
+}
+
+.nested h1{
+  font-size: 17px;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  
+}
+.nested p {
+  font-size: 16px;
+  padding: 5px;
+}
+
+
+/*STYLING ICONZ*/
+.fa {
+  padding: 4px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #2B7FB0;
+  color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+  background: #5F99CE;
+  color: white;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+.tab button:hover {
+  opacity: 0.7;
+} 
+  .tab {
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
